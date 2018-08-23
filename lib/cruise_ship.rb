@@ -7,6 +7,7 @@
 # }
 
 def select_winner(passengers)
+  winner=''
   passengers.each { |a,b|
     if a=='suite_a' and b[0]=='A'
       winner=b 
